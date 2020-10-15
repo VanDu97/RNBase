@@ -6,7 +6,7 @@ import { getUserAgent } from "react-native-device-info";
 const BASE_URL_API = "";
 const api = axios.create({
   baseURL: BASE_URL_API,
-  timeout: 10000,
+  timeout: 5000,
   headers: {
     "Content-Type": "application/json",
     Accept: "application/json",
